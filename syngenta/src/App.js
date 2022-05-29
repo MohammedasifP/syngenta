@@ -29,6 +29,22 @@ const [c5,setC5]=useState('circle5')
     }
  }
 
+ const backc1=()=>{
+   setC1('circle1')
+ }
+ const backc2=()=>{
+  setC2('circle2')
+}
+const backc3=()=>{
+  setC3('circle3')
+}
+const backc4=()=>{
+  setC4('circle4')
+}
+const backc5=()=>{
+  setC5('circle5')
+}
+
  const takevalue=(e)=>{
   const {value}=e.target;
     setCircle(value);
@@ -42,11 +58,11 @@ const [c5,setC5]=useState('circle5')
             <button onClick={setcircle}>shoot</button>
          </div>
          <div className='right-sqaure'>
-           <div className={c1}></div>
-           <div className={c2}></div>
-           <div className={c3}></div>
-           <div className={c4}></div>
-           <div className={c5}></div>
+           <div onClick={backc1} className={c1}></div>
+           <div onClick={backc2} className={c2}></div>
+           <div onClick={backc3} className={c3}></div>
+           <div onClick={backc4} className={c4}></div>
+           <div onClick={backc5} className={c5}></div>
          </div>
        </div>
     </div>
