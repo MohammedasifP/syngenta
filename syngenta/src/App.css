@@ -1,0 +1,79 @@
+.container{
+  margin-left: 5%;
+   display: flex;
+   gap: 200px;
+}
+.container>div{
+  width: 50%;
+}
+.left-sqaure{
+   width: 100%;
+   height: 200px;
+   border: 1px solid black;
+}
+.right-sqaure{
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-content: space-around;
+  
+}
+.right-sqaure>div{
+   width: 70px;
+   height: 70px;
+  border: 1px solid black;
+  border-radius: 35px;
+  margin-bottom: 10px;
+}
+.circle1{
+   background-color: orange;
+ 
+}
+.circle2{
+  background-color: white;
+
+}
+.circle3{
+  background-color: green;
+
+}
+.circle4{
+ background-color: blue;
+
+}
+.circle5{
+  background-color: teal;
+ 
+ }
+.circle11{
+  left: 70px;
+  top: 100px;
+  position: fixed;
+  background-color: orange;
+  
+}
+.circle22{
+  left: 150px;
+  top: 100px;
+  position: fixed;
+  background-color: white;
+}
+.circle33{
+  left: 230px;
+  top: 100px;
+  position: fixed;
+  background-color: green;
+}
+.circle44{
+  left: 310px;
+  top: 100px;
+  position: fixed;
+  background-color: blue;
+}
+.circle55{
+  left: 390px;
+  top: 100px;
+  position: fixed;
+  background-color: teal;
+}
+
